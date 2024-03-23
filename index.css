@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+}
+
+.container{
+    background: black;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 10px;
+    text-align: center;
+}
+    .app_name{
+        color: wheat;
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .number{
+        font-size: 3rem;
+        font-weight: 300;
+        color: aliceblue;
+    }
+    .button-panel{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+        button{
+            padding: 1rem 1.5rem;
+            border: none;
+            z-index: 1;
+            background: whitesmoke;
+            position: relative;
+            font-weight: bold;
+            }
+        
+     .reset{
+                margin-left: -1rem;
+                color: red;
+                background-color: transparent;
+                border: 2px solid white;
+            }
+#line{
+    width: 520px;
+    margin-left: 50px;
+}
