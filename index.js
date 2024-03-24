@@ -9,7 +9,7 @@ let count = 0;
 function current(){
     display.innerHTML = count;
     if(count < 0){
-        display.innerHTML = "Can't goes down ";
+        display.innerHTML = "Error: Cannot go below 0";
     }
    
 }
